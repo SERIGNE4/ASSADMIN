@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar {
+   
+    width: 100%;
+    letter-spacing: 4px;
+   height: 10%;
+    
+    background-color:aqua;
+
+}
+.navbar h1 {
+    letter-spacing: 1px;
+    text-align: center;
+    color: black !important;
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar img {
+    
+ height: 60px;
+    width:  60px;
+    padding-top: 1px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+   
+}
+
+
+.navbar .nav  li  a {
+    color:black!important;
+    font-size: 25px;
+    margin-top: 0px;
+   
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: 'Lobster Two', cursive;
+ 
+}
+.navbar .nav  li a i{
+    margin-top: 0px;
+    top: 0%;
+}
+
+
+
+
+
+
+
+

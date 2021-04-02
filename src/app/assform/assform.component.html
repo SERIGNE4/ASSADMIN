@@ -1,0 +1,130 @@
+<head><link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    </head>
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <div class="container register">
+                    <div class="row">
+                        <div class="col-md-3 register-left">
+                            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                            <h3>Bienvenue</h3>
+                            <p>Soumettre une nouvelle offre!</p>
+                           
+                        </div>
+                        <div class=" col-md-11 register-right" width="80%">
+                            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Assurance</a>
+                                </li>
+                               
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <h3 class="register-heading">Les infos relatives à l'offre</h3>
+                                    <div class="row register-form">
+                                        <div class="col-md-6">
+                                            <h1>Type de Véhicule</h1>
+                                            <label >Remorque</label>
+                                            <div class="form-group">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked>
+                                                    <span> Oui </span> 
+                                                </label>
+                                                
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span> Non </span> 
+                                                </label>
+                                                
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span> Indefini </span> 
+                                                </label>
+                                            </div>
+                                            <label >Essance</label>
+                                            <div class="form-group">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked>
+                                                    <span> Oui </span> 
+                                                </label>
+                                                
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span> Non </span> 
+                                                </label>
+                                                
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span> Indefini </span> 
+                                                </label>
+                                            </div>
+                                           
+                                            <div class="form-group">
+                                                <label >Entrez les Modèles pris en compte</label>
+                                                <input type="text" class="form-control" placeholder="Les modeles" value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Marque</label>
+                                                <select class="form-control">
+                                                    
+                                                    <option class="hidden"  selected disabled>Selectinnez les marques pris en compte</option>
+                                                    <option>Toyota</option>
+                                                    <option>Tesla</option>
+                                                    <option>Honda</option>
+                                                    <option>Mercedes</option>
+                                                    <option>Renault</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Force fiscale minimum</label>
+                                                <input type="text" class="form-control" pattern="*[0-9]" placeholder="Force fiscale minimum" value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Force fiscale maximum</label>
+                                                <input type="text" class="form-control" pattern="*[0-9]" placeholder="Force fiscale maximum" value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Evaluation en millions minimum</label>
+                                                <input type="text" class="form-control" pattern="*[0-9]" placeholder="Evaluation en millions minimum" value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Evaluation en millions maximum</label>
+                                                <input type="text" class="form-control" pattern="*[0-9]" placeholder="Evaluation en millions maximum" value="" />
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <h1>Type de Profil</h1>
+                                            <div class="form-group">
+                                                <label >Age minimum</label>
+                                                <input type="text" class="form-control" pattern="*[0-9]" placeholder="Age minimum" value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Age maximum</label>
+                                                <input type="text" class="form-control" pattern="*[0-9]" placeholder="Age maximum" value="" />
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label >Date obtention permis</label>
+                                                <input type="date" class="form-control"   value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Date limite permis</label>
+                                                <input type="date" class="form-control" value="" />
+                                            </div>
+                                            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                            
+                                            <input type="submit" class="btnRegister"  value="Publier"/>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    <router-outlet></router-outlet>
+    
